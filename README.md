@@ -153,3 +153,5 @@ MongoDB Atlas: https://www.mongodb.com/atlas
 Dev Containers: https://containers.dev/
 
 ChatGPT: https://chatgpt.com/
+
+Mermaid Diagram: https://docs.mermaidchart.com/mermaid-oss/syntax/sequenceDiagram.html#grouping-box/
