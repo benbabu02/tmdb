@@ -1,23 +1,7 @@
-<!-- # TMDB
-
-## Local
-- Frontend: http://localhost:5173
-- Backend: http://localhost:8080/health
-
-## Setup
-### Server
-```bash
-cd server
-npm run dev
-
-cd client
-npm run dev -- --host 0.0.0.0
-
-cd tests
-npm test
-``` -->
-
 # Movie Recommendation System (TMDB)
+
+### Video Link
+
 
 A full-stack **MERN** web application that allows users to search movies using the TMDB API, save personalized favorites, and manage their collection. The app uses **Google OAuth** for authentication, **MongoDB** for persistence, and is fully deployed on **Google App Engine**.
 
