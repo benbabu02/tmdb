@@ -1,0 +1,15 @@
+runtime: nodejs20
+env: standard
+instance_class: F1
+
+handlers:
+  - url: /api/.*
+    script: auto
+  - url: /health
+    script: auto
+  - url: /(.*\.(css|js|map|png|jpg|jpeg|svg|ico))$
+    static_files: ../client/dist/\1
+    upload: ../client/dist/.*\.(css|js|map|png|jpg|jpeg|svg|ico)$
+  - url: /.*
+    static_files: ../client/dist/index.html
+    upload: ../client/dist/index.html
